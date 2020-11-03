@@ -1,0 +1,60 @@
+{
+    "TextView": {
+        "prefix": "TextView",
+        "body": [
+          "<TextView",
+          "  android:text=\"${1:text}\"",
+          "  android:id=\"@+id/${2:textView}\"",
+          "  android:layout_width=\"match_parent\"",
+          "  android:layout_height=\"wrap_content\"",
+          "/>"
+        ],
+        "description": "TextView"
+      },
+      "LinearLayout": {
+        "prefix": "LinearLayout",
+        "body": [
+          "<LinearLayout",
+          "	xmlns:android=\"http://schemas.android.com/apk/res/android\"",
+          "	android:layout_width=\"match_parent\"",
+          "	android:layout_height=\"match_parent\"",
+          "	android:gravity=\"center_horizontal\">",
+          "</LinearLayout>"
+        ],
+        "description": "LinearLayout"
+      },
+      "ListView": {
+        "prefix": "ListView",
+        "body": [
+          "<ListView",
+          "  android:layout_width=\"match_parent\"",
+          "  android:layout_height=\"match_parent\"",
+          "  android:id=\"@+id/${1:listView}\" />"
+        ],
+        "description": "ListView"
+      },
+      "Button": {
+        "prefix": "Button",
+        "body": [
+          "<Button",
+          "  android:text=\"${1:text}\"",
+          "  android:id=\"@+id/${1:button}\"",
+          "  android:layout_width=\"match_parent\"",
+          "  android:layout_height=\"wrap_content\"",
+          "/>"
+        ],
+        "description": "Button"
+      },
+      "Switch": {
+        "prefix": "Switch",
+        "body": [
+          "<Switch",
+          "  android:layout_width=\"match_parent\"",
+          "  android:layout_height=\"wrap_content\"",
+          "  android:text=\"${1:text}\"",
+          "  android:id=\"@+id/${1:switch}\"",
+          "/>"
+        ],
+        "description": "Switch"
+      }
+}
